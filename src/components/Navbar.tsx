@@ -13,11 +13,12 @@ const Navbar = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-gray-700 hover:text-black">Home</a>
-            <a href="#" className="text-gray-700 hover:text-black">Shop</a>
-            <a href="#" className="text-gray-700 hover:text-black">About</a>
-            <a href="#" className="text-gray-700 hover:text-black">Contact</a>
-            <button className="p-2 hover:bg-gray-100 rounded-full">
+            <a href="#" className="text-gray-700 hover:text-black" title='Home'><i className="fa-solid fa-house"></i></a>
+            <a href="#" className="text-gray-700 hover:text-black" title='Shop'><i className="fa-solid fa-cart-shopping"></i></a>
+            <a href="#" className="text-gray-700 hover:text-black" title='Contact'><i className="fa-solid fa-comment"></i></a>
+            <a href="#" className="text-gray-700 hover:text-black" title='User'><i className="fa-solid fa-circle-user"></i></a> 
+             <a href="#" className="text-gray-700 hover:text-black" title='About Us'><i className="fa-solid fa-reply"></i></a>
+            <button className="p-2 hover:bg-gray-100 rounded-full" >
               <ShoppingBag className="h-6 w-6" />
             </button>
           </div>
